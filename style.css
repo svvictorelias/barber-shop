@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 header img {
     width: 50px;
@@ -40,12 +40,18 @@ header > nav > a:last-child {
     align-items: center;
     padding-right: 20px;
 }
-.call-midias > a {
+.call-midias > a:first-child {
     font-weight: 500;
     font-size: 1.3rem;
     padding: 5px;
     border-radius: 10px;
     border: solid 3px white;
+}
+.linha-vertical{
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 0px 30px;
 }
 main{
     display: flex;
